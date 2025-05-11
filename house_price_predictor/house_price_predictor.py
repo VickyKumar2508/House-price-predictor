@@ -1,11 +1,11 @@
-import pandas as pd # type: ignore
-import numpy as np # type: ignore
-import joblib # type: ignore
+import pandas as pd 
+import numpy as np 
+import joblib 
 import os
-from sklearn.metrics import mean_absolute_error # type: ignore
-from sklearn.model_selection import train_test_split # type: ignore
-from sklearn.ensemble import RandomForestRegressor # type: ignore
-import matplotlib.pyplot as plt # type: ignore
+from sklearn.metrics import mean_absolute_error
+from sklearn.model_selection import train_test_split 
+from sklearn.ensemble import RandomForestRegressor 
+import matplotlib.pyplot as plt 
 
 # Load data
 housing_data = pd.read_csv(os.path.join(os.path.dirname(__file__), "train.csv"))
